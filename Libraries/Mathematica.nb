@@ -1,0 +1,130 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{"2","+","2"}]],"Input",ExpressionUUID -> "2ad4edbe-5b95-424e-9f7b-0bb870125986",
+CellLabel -> "In[1]:= "],Cell[
+BoxData["4",StandardForm],"Output",ExpressionUUID -> "b3b244ec-63fc-4784-8a64-80d0430e6e01",
+CellLabel -> "Out[1]= "]},Open],ExpressionUUID -> "621795e5-13f8-48a8-89c4-3906cae34dc2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Range","[","10","]"}]],"Input",ExpressionUUID -> "5ea06854-5f09-4852-8f3c-a2c52ac0ddb2",
+CellLabel -> "In[2]:= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6",",","7",",","8",",","9",",","10"}],"}"}],
+StandardForm],"Output",ExpressionUUID -> "1e6f9e1b-37b8-4f09-b06a-31740ac7ebc4",CellLabel -> "Out[2]= "]},
+Open],ExpressionUUID -> "4410be03-378d-4a22-bca6-f00d8f0d54bc"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics3D","[",RowBox[{"Sphere","[","]"}],"]"}]],"Input",
+ExpressionUUID -> "c82eb42b-f06b-49d1-9ae9-a4a08865fecb",CellLabel -> "In[3]:= "],Cell[
+BoxData[
+Graphics3DBox[SphereBox[{0,0,0}],ExpressionUUID -> "10fd47f0-03dc-4164-8512-4a447820b442"],
+StandardForm],"Output",ExpressionUUID -> "01e5cf0f-7a72-41df-8d92-72bbba9e824f",CellLabel -> "Out[3]= "]},
+Open],ExpressionUUID -> "1bda2f26-4584-492a-9745-593707387827"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"2","x"}],"+","7"}]],"Input",ExpressionUUID -> "65223335-60cf-4fde-ab12-2e518d07e91e",
+CellLabel -> "In[4]:= "],Cell[
+BoxData[RowBox[{"7","+",RowBox[{"2"," ","x"}]}],StandardForm],
+"Output",ExpressionUUID -> "bde1196b-8b37-4d6c-b7d2-d89f7b6aa2e6",CellLabel -> "Out[4]= "]},
+Open],ExpressionUUID -> "68c47aa8-837d-4d03-823c-064a7071f755"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{SubscriptBox["\[PartialD]",RowBox[{"x"}]],RowBox[{"(",RowBox[
+{"7","+",RowBox[{"2"," ","x"}]}],")"}]}]],"Input",NumberMarks -> False,ExpressionUUID -> "b1a0b079-1a17-4dbd-872b-23d2faac28a8",
+CellLabel -> "In[5]:= "],Cell[
+BoxData["2",StandardForm],"Output",ExpressionUUID -> "7702d1e9-1e22-4517-9bba-f651e024727d",
+CellLabel -> "Out[5]= "]},Open],ExpressionUUID -> "bfa28af7-0e1f-415c-aef2-a2557f2cceb0"],Cell[
+BoxData[
+RowBox[{"t"," ",":="," ","Now"}]],"Input",ExpressionUUID -> "61f121b7-4de8-4e69-9295-7ae7fd8a6fb4",
+CellLabel -> "In[6]:= "],Cell[
+CellGroupData[{Cell[
+BoxData["t"],"Input",ExpressionUUID -> "f7ca37ab-ecb3-45f6-8155-46b7bbef6e48",
+CellLabel -> "In[7]:= "],Cell[
+BoxData[TemplateBox[{RowBox[{"\"05. July 2020 2:22 pm\"",StyleBox[
+RowBox[{"\"GMT\"","\[InvisibleSpace]",StyleBox[RowBox[{"-","5.`"}],NumberMarks -> False,
+StripOnInput -> False]}],FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject","[",RowBox[
+{RowBox[{"{",RowBox[{"2020",",","7",",","5",",","14",",","22",",","16.349576`7.966081479208235"}],"}"}],",","\"Instant\"",",","\"Gregorian\"",",",RowBox[
+{"-","5.`"}]}],"]"}]},"DateObject",Editable -> False],StandardForm],"Output",ExpressionUUID -> "836e5f46-05bd-4866-9691-d80cd1bc8d96",
+CellLabel -> "Out[7]= "]},Open],ExpressionUUID -> "9ac022bb-5e61-43de-9890-1a8b28aba445"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ListLinePlot","[",RowBox[{"{",RowBox[{"1",",","2",",","45",",","1",",","1"}],"}"}],"]"}]],
+"Input",ExpressionUUID -> "676f2e0d-ba53-4d6c-b623-f455c8343dbb",CellLabel -> "In[8]:= "],Cell[
+BoxData[
+GraphicsBox[{{},{{{},{},{Hue[0.67,0.6,0.6],Directive[PointSize[NCache[Rational[7,
+360],0.019444444444444445]],RGBColor[0.368417,0.506779,0.709798],AbsoluteThickness[
+1.6]],LineBox[CompressedData["1:eJxTTMoPSmViYGBgBWIQDQEf7FFpBgdUmgNCN7hB+QIOqOpF4HwAsS8I4Q=="]]}},{{Directive[
+PointSize[NCache[Rational[7,360],0.019444444444444445]],RGBColor[0.368417,0.506779,
+0.709798],AbsoluteThickness[1.6]]}},{{Directive[PointSize[NCache[Rational[7,360],
+0.019444444444444445]],RGBColor[0.368417,0.506779,0.709798],AbsoluteThickness[1.6]]},{}},{{Directive[
+PointSize[NCache[Rational[7,360],0.019444444444444445]],RGBColor[0.368417,0.506779,
+0.709798],AbsoluteThickness[1.6]]},{}}},{{},{}}},{DisplayFunction -> Identity,DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948],Axes -> {True,True},AxesLabel -> {None,None},AxesOrigin -> {0.0,0},RuleDelayed[
+DisplayFunction,Identity],Frame -> {{False,False},{False,False}},FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5,0.4]],Method -> CompressedData["1:eJzNUD0LwjAUjB+Dm4Pg7m+pCIJiaYt7NC/wMOaF5GWov96kaIvQSReX4y539ziyuVClZ0KIME9wwMB6+lZVNFCvEjk5xjs+oDTER+lv4EMXaHyE3+LrRAoir9BKhtAQmdwmG4bgyKhlIlsMzsh2F+01F/QkJxYJ+pfPC72/V2AZuR38UvqXn1WdZmNWHXzTy4GRfynIIaizNBH+dfUT3rB0HA=="],PlotRange -> {{0.0,5.0},{0,45.0}},PlotRangeClipping -> True,PlotRangePadding -> {{Scaled[
+0.02],Scaled[0.02]},{Scaled[0.02],Scaled[0.05]}},Ticks -> {Automatic,Automatic}},
+ExpressionUUID -> "70e05f06-24e1-4ec1-aec9-c216e30f133f"],StandardForm],"Output",
+ExpressionUUID -> "d44ce0d0-418b-44f5-b52f-3b17bda32c25",CellLabel -> "Out[8]= "]},
+Open],ExpressionUUID -> "41e2d7b6-5a92-407c-97d1-1d5ef14a73b2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Plot","[",RowBox[{RowBox[
+{"Sin","[",RowBox[{"a"," ","x"}],"]"}],","," ",RowBox[{"{",RowBox[{"x",","," ","0",","," ","10"}],"}"}]}],"]"}],","," ",RowBox[
+{"{",RowBox[{"a",","," ","1",","," ","5"}],"}"}]}],"]"}]],"Input",ExpressionUUID -> "153afc52-9de1-4063-a861-2a2f86fbccf4",
+CellLabel -> "In[9]:= "],Cell[
+BoxData[TagBox[StyleBox[DynamicModuleBox[{Set[a$$,
+1`],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,
+"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[
+Typeset`specs$$,{{Hold[a$$],1,5}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,
+0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},DynamicBox[Manipulate`ManipulateBoxes[
+1,StandardForm,RuleDelayed["Variables",{Set[a$$,1]}],RuleDelayed["ControllerVariables",
+{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Plot[Sin[Times[a$$,x]],{x,0,10}]],RuleDelayed["Specifications",
+{{a$$,1,5}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "3d9e3da5-60a3-412b-8f23-6d1896ae2176"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+ExpressionUUID -> "c2468436-2b4d-48fc-9547-355f253d0a98",CellLabel -> "Out[9]= "],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[a$$,2.87`],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[a$$],1,5}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[a$$,1]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Plot[Sin[x],{x,0,10}]],RuleDelayed["Specifications",{{a$$,1,5}}],
+RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "6cd80515-00e1-4c91-9352-3e49ac1d16c7"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+ExpressionUUID -> "dc0fbedd-887c-4bc2-8e14-5c21688e0b45",CellLabel -> "Out[19]= "]},
+Open],ExpressionUUID -> "0ac14cb5-0f19-4af5-9db3-a078b1882406"],Cell[
+TextData[{"This"," ","is"," ","a"," ","comment"}],
+"Text",ExpressionUUID -> "29048064-ef8b-4678-824a-990052e5654a"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Plot","[",RowBox[{RowBox[
+{"2","x"}],","," ",RowBox[{"{",RowBox[{"x",","," ","1",","," ","10"}],"}"}]}],"]"}],","," ",RowBox[
+{"{",RowBox[{"a",","," ","1",","," ","10"}],"}"}]}],"]"}]],"Input",ExpressionUUID -> "982c4264-4977-44b0-97d5-695de7138b14",
+CellLabel -> "In[24]:= "],Cell[
+BoxData[TagBox[StyleBox[DynamicModuleBox[{Set[a$$,
+1],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,
+"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[
+Typeset`specs$$,{{Hold[a$$],1,10}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,
+0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},DynamicBox[Manipulate`ManipulateBoxes[
+1,StandardForm,RuleDelayed["Variables",{Set[a$$,1]}],RuleDelayed["ControllerVariables",
+{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Plot[Times[2,x],{x,1,10}]],RuleDelayed["Specifications",{{a$$,1,10}}],
+RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "d36bad78-48c5-4f44-84b6-3a054081351b"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+ExpressionUUID -> "4bb37367-f5aa-4ce3-8dee-7913f02f95fb",CellLabel -> "Out[24]= "]},
+Open],ExpressionUUID -> "21ee6f48-a626-4ad9-9197-e9a93aca0829"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "12.1 for Wolfram Cloud 1.55 (June 23, 2020)"]
