@@ -27,8 +27,10 @@ def video_to_frames(video_f, out_dir, n_to_skip=0, verbose=True):
 @click.option('-v', '--video_dir')
 @click.option('-o', '--out_dir')
 @click.option('-s', '--skip')
-def videos_to_frames(video_dir, out_dir, skip):
-    print(SZ)
+@click.option('--verbose', default=True)
+def videos_to_frames(video_dir, out_dir, skip, verbose):
+    if not os.path.isdir(video_dir):
+        video_to_frames(video_dir, out_dir, int(skip), verbose)
     for f in os.listdir(video_dir):                                                                      
         video_f = os.path.join(video_dir, f)
         print(video_f)
