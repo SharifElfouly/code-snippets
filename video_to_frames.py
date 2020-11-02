@@ -23,6 +23,7 @@ def video_to_frames(video_f, out_dir, n_to_skip=0, verbose=True):
         except Exception as e: return
         i += 1
 
+# TODO: Refactor this!
 @click.command()
 @click.option('-v', '--video_dir')
 @click.option('-o', '--out_dir')
@@ -31,13 +32,14 @@ def video_to_frames(video_f, out_dir, n_to_skip=0, verbose=True):
 def videos_to_frames(video_dir, out_dir, skip, verbose):
     if not os.path.isdir(video_dir):
         video_to_frames(video_dir, out_dir, int(skip), verbose)
-    for f in os.listdir(video_dir):                                                                      
-        video_f = os.path.join(video_dir, f)
-        print(video_f)
-        video_out_dir = os.path.join(out_dir, os.path.splitext(f)[0])
-        if not os.path.exists(video_out_dir): os.mkdir(video_out_dir)
-        else: continue
-        video_to_frames(video_f, video_out_dir, int(skip), False)
+    else:
+        for f in os.listdir(video_dir):                                                                      
+            video_f = os.path.join(video_dir, f)
+            print(video_f)
+            video_out_dir = os.path.join(out_dir, os.path.splitext(f)[0])
+            if not os.path.exists(video_out_dir): os.mkdir(video_out_dir)
+            else: continue
+            video_to_frames(video_f, video_out_dir, int(skip), False)
 
 if __name__ == '__main__':
     videos_to_frames()
